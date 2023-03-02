@@ -1,5 +1,5 @@
 USE ymir_adam;
-DROP TABLE IF EXSITS albums;
+DROP TABLE IF EXISTS albums;
 CREATE TABLE albums (
     id INT UNSIGNED NOT NULL AUTO_INCREMENT,
     artist VARCHAR(50),
